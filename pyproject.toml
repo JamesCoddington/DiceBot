@@ -1,0 +1,20 @@
+[project]
+name = "dicebot"
+version = "0.1.0"
+description = "A discord bot to roll dice for ttrpgs"
+authors = [
+    {name = "James Coddington",email = "james@coddington.io"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "discord (>=2.3.2,<3.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
